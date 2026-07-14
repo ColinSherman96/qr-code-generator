@@ -1,7 +1,10 @@
 venv
+qr_codes/
 images
 .python_history# Byte-compiled / optimized / DLL files
 __pycache__/
+.pytest_cache/
+*.pyc
 *.py[cod]
 *$py.class
 # C extensions

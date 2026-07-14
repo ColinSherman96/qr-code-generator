@@ -1,5 +1,7 @@
 pillow==10.2.0
 pypng==0.20220715.0
+pytest==9.1.1
+pytest-cov==7.1.0
 python-dotenv==1.0.1
 qrcode==7.4.2
 typing_extensions==4.10.0

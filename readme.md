@@ -1,3 +1,15 @@
+# 🧮 QR Code Generator
+
+A Python-based QR code generator that creates QR codes from URLs and saves them as PNG files. The application supports environment-based configuration and can be run locally or inside a Docker container.
+
+## Features
+
+- Generate QR codes from URLs
+- Configure QR output directory using environment variables
+- Customize QR code colors
+- Dockerized application
+- Automated testing with GitHub Actions
+
 # 📦 Project Setup
 
 ---
@@ -173,9 +185,7 @@ pip install -r requirements.txt
 
 ---
 
-# 🐳 5. (Optional) Docker Setup
-
-> Skip if Docker isn't used in this module.
+# 🐳 5. Docker Setup
 
 ## Install Docker
 
@@ -185,13 +195,13 @@ pip install -r requirements.txt
 ## Build Docker Image
 
 ```bash
-docker build -t <image-name> .
+docker build -t qr-code-generator-app .
 ```
 
 ## Run Docker Container
 
 ```bash
-docker run -it --rm <image-name>
+docker run -it --rm qr-code-generator-app
 ```
 
 ---
